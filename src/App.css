@@ -1,0 +1,67 @@
+#root {
+  height: 100vh;
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+:root {
+  --border-radius: 10px;
+}
+
+body {
+  background-color: rgb(88, 88, 88);
+  margin: 0;
+}
+
+.header {
+  background-image: var(--bg-img);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: var(--header-height);
+  /* (img-height / img-width * container-width) */
+  /* (280 / 1140 * 100) */
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  /* margin: 0; */
+  color: white;
+  font-weight: 500;
+}
+
+@media all and (max-width: 640px) {
+  .header{
+    justify-content: flex-start;
+  }
+}

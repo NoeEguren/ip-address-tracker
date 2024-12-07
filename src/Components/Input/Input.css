@@ -1,0 +1,27 @@
+.search-input, .btn{
+    cursor: pointer;
+}
+.btn {
+    background-color: #000;
+    border-radius: 0px var(--border-radius) var(--border-radius) 0px;
+    width: 44px;
+    border: solid;
+}
+
+input {
+    border-radius: var(--border-radius) 0px 0px var(--border-radius);
+    border-width: 0px;
+    /* border-color: #000; */
+    flex: 1 1 auto;
+    max-width: 300px;
+    font-size: 14px;
+    padding: 10px 15px;
+    font-weight: 400;
+}
+
+.input-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: var(--content-width);
+}
